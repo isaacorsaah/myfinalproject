@@ -18,8 +18,9 @@ use App\Http\Controllers\authController;
 |
 */
 //using controller
-Route::get('/auth/github/redirect', [App\Http\Controllers\authController::class, 'githubredirect']);
-Route::get('/auth/github/callback', [App\Http\Controllers\authController::class, 'githubcallback']);
+
+Route::get('/auth/google/redirect', [authcontroller::class, 'googleredirect'])->name('googlelogin');
+Route::get('/auth/google/callback', [authcontroller::class, 'googlecallback']);
 
 Route::get('/', [PagesController::class, 'index']);
 
