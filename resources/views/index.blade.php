@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="background-image grid grid-cols-1 m-auto">
+    <div class="background-images grid grid-cols-1 m-auto">
         <div class="flex text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-                <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-                    Do you want to become a developer?
+                <h1 class="sm:text-black text-5xl uppercase font-bold text-shadow-md pb-14">
+                    Interested in basketball?
                 </h1>
                 <a 
                     href="/blog"
@@ -18,12 +18,13 @@
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" width="700" alt="">
+            <img src="https://media.npr.org/assets/img/2021/03/09/gettyimages-1293548858_wide-acf922caef10b433b0599f3a5ef4603125bd0e14.jpg?s=1400" width="700" alt="">
+
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
-                Struggling to be a better web developer?
+                Struggling to be a better basketball player?
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
@@ -44,20 +45,20 @@
 
     <div class="text-center p-15 bg-black text-white">
         <h2 class="text-2xl pb-5 text-l"> 
-            I'm an expert in...
+            I have experience in...
         </h2>
 
         <span class="font-extrabold block text-4xl py-1">
-            Ux Design
+            Basketball Coaching
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Project Management
+            Shooting
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Digital Strategy
+            Dribbling
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Backend Development
+            Defense
         </span>
     </div>
 
@@ -94,7 +95,7 @@
             </div>
         </div>
         <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
+            <img src="https://i.pinimg.com/originals/be/7f/44/be7f44e667bd479cc9a8696dfc0e2c10.jpg" alt="">
         </div>
     </div>
 @endsection
