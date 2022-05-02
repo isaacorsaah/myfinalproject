@@ -90,7 +90,7 @@
                 <a 
                     href=""
                     class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
-                    Find Out More
+                    Faq
                 </a>
             </div>
         </div>
