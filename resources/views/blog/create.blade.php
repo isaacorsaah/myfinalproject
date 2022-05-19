@@ -32,29 +32,28 @@
             type="text"
             name="title"
             placeholder="Player Name"
-            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none" required>
 
             <input 
             type="number"
             name="age"
             placeholder="Player Age"
-            required title="numbers only"
-            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none" required>
 
             <input 
             type="text"
             name="title"
             placeholder="Player Team"
-            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none" required>
         
             <label for="datemin">Enter todays date:</label>
             <input
-            type="date" id="datemin" name="datemin" min="2022-05-19" >
+            type="date" id="datemin" name="datemin" min="2022-05-19" required>
 
         <textarea 
             name="description"
             placeholder="Background"
-            class="py-20 bg-transparent block border-b-2 w-full h-60 text-xl outline-none"></textarea>
+            class="py-20 bg-transparent block border-b-2 w-full h-60 text-xl outline-none" required></textarea>
 
         <div class="bg-grey-lighter pt-15">
             <label class="w-44 flex flex-col items-center px-2 py-3 bg-white-rounded-lg shadow-lg tracking-wide uppercase border border-blue cursor-pointer">
